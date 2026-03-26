@@ -3,7 +3,7 @@ import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { 
   Home, Search, Radio, Send, Bot,
   Download, Trash2, Settings, BrainCircuit, BookOpen,
-  ChevronRight, ChevronDown, Building2, Users, HelpCircle, Sparkles, X, Briefcase, Database
+  ChevronRight, ChevronDown, Building2, Users, HelpCircle, Sparkles, X, Briefcase, Database, Rocket
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -52,6 +52,7 @@ export default function Layout({ onLogout }: { onLogout: () => void }) {
     },
     { path: '/portfolio', label: 'Asset Management', icon: Briefcase },
     { path: '/agents', label: 'AI Analysts', icon: Bot },
+    { path: '/repositories', label: 'Launch App', icon: Rocket },
   ];
 
   const bottomNavItems = [
