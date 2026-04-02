@@ -50,7 +50,6 @@ export default function Layout({ onLogout }: { onLogout: () => void }) {
         { path: '/gtm/campaigns', label: 'Campaign Orchestrator', icon: Send },
       ]
     },
-    { path: '/portfolio', label: 'Asset Management', icon: Briefcase },
     { path: '/agents', label: 'AI Analysts', icon: Bot },
     { path: '/repositories', label: 'Launch App', icon: Rocket },
   ];
