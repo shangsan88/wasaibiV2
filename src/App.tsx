@@ -14,6 +14,7 @@ import Settings from './pages/Settings';
 import AiContext from './pages/AiContext';
 import Resources from './pages/Resources';
 import Repositories from './pages/Repositories';
+import ScoutAgent from './pages/ScoutAgent';
 import Login from './pages/Login';
 
 export default function App() {
@@ -51,6 +52,7 @@ export default function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="agents" element={<Agents />} />
           <Route path="repositories" element={<Repositories />} />
+          <Route path="scout" element={<ScoutAgent />} />
           <Route path="exports" element={<Exports />} />
           <Route path="trash" element={<Trash />} />
           <Route path="settings" element={<Settings />} />
